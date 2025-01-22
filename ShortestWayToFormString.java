@@ -29,7 +29,7 @@ class Solution {
             }
 
             if(s == source.length()){
-                s =0;
+                s =0; // reset the source pointer back to 0 and start the comparison. 
                 count++;
             }
         }
